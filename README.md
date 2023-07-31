@@ -1,4 +1,4 @@
-# eslint-config-moresec
+# jianhao-eslint
 
 ESLint 规则配置集。支持原生 js、Vue、React、TypeScript。
 
@@ -10,7 +10,7 @@ ESLint 规则配置集。支持原生 js、Vue、React、TypeScript。
 
 ```
 yarn add eslint @babel/core @babel/eslint-parser -D
-yarn add @moresec/eslint-config-moresec -D
+yarn add @jianhunxia/jianhao-eslint -D
 ```
 
 ### vue
@@ -22,7 +22,7 @@ yarn add\
   eslint-plugin-vue\
   vue-eslint-parser\
   -D
-yarn add @moresec/eslint-config-moresec -D
+yarn add @jianhunxia/jianhao-eslint -D
 ```
 
 ### react
@@ -33,7 +33,7 @@ yarn add\
   @babel/core @babel/eslint-parser\
   eslint-plugin-react\
   -D
-yarn add @moresec/eslint-config-moresec -D
+yarn add @jianhunxia/jianhao-eslint -D
 ```
 
 ### typescript
@@ -45,7 +45,7 @@ yarn add\
   @typescript-eslint/parser\
   @typescript-eslint/eslint-plugin\
   -D
-yarn add @moresec/eslint-config-moresec -D
+yarn add @jianhunxia/jianhao-eslint -D
 ```
 
 ## Usage
@@ -56,7 +56,7 @@ yarn add @moresec/eslint-config-moresec -D
 
 ```
 {
-  extends: ["@moresec/moresec"]
+  extends: ["@jianhunxia/jianhao-eslint"]
 }
 ```
 
@@ -64,7 +64,7 @@ yarn add @moresec/eslint-config-moresec -D
 
 ```
 {
-  extends: ["@moresec/moresec/vue"]
+  extends: ["@jianhunxia/jianhao-eslint/vue"]
 }
 ```
 
@@ -72,7 +72,7 @@ yarn add @moresec/eslint-config-moresec -D
 
 ```
 {
-  extends: ["@moresec/moresec/react"]
+  extends: ["@jianhunxia/jianhao-eslint/react"]
 }
 ```
 
@@ -80,7 +80,7 @@ yarn add @moresec/eslint-config-moresec -D
 
 ```
 {
-  extends: ["@moresec/moresec/typescript"]
+  extends: ["@jianhunxia/jianhao-eslint/typescript"]
 }
 ```
 
@@ -94,7 +94,7 @@ yarn add eslint-plugin-prettier eslint-config-prettier --dev
 // 2. 配置 .eslintrc 相关文件
 {
   extends: [
-    "@moresec/moresec",
+    "@jianhunxia/jianhao-eslint",
     "plugin:prettier/recommended"
   ]
 }
@@ -121,14 +121,14 @@ yarn add\
   eslint-plugin-prettier\
   eslint-config-prettier\
   -D
-yarn add @moresec/eslint-config-moresec -D
+yarn add @jianhunxia/jianhao-eslint -D
 yarn add prettier --dev --exact
 
 // .eslintrc
 {
   "extends": [
-    "@moresec/moresec/react",
-    "@moresec/moresec/typescript",
+    "@jianhunxia/jianhao-eslint/react",
+    "@jianhunxia/jianhao-eslint/typescript",
     "plugin:prettier/recommended"
   ]
 }

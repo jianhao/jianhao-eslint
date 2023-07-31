@@ -1,7 +1,7 @@
 {
-  "name": "@moresec/eslint-config-moresec",
+  "name": "@jianhunxia/jianhao-eslint",
   "version": "1.6.3",
-  "description": "custom ESLint rules for MoresecFE",
+  "description": "custom ESLint rules for jianhao",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,9 @@
     "eslint",
     "eslint-config",
     "eslint-rules",
-    "moresec"
+    "jianhao"
   ],
-  "author": "cnjs",
+  "author": "jianhao",
   "files": [
     "index.js",
     "vue.js",
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.moresec.cn/front-end/eslint-config-moresec"
+    "url": "https://github.com/jianhao/jianhao-eslint"
   },
   "bugs": {
-    "url": "https://git.moresec.cn/front-end/eslint-config-moresec/issues"
+    "url": "https://github.com/jianhao/jianhao-eslint/issues"
   },
-  "homepage": "https://git.moresec.cn/front-end/eslint-config-moresec",
+  "homepage": "https://github.com/jianhao/jianhao-eslint",
   "devDependencies": {
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-simple-import-sort": "^10.0.0"
