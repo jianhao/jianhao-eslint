@@ -1,0 +1,40 @@
+{
+  "name": "@moresec/eslint-config-moresec",
+  "version": "1.6.3",
+  "description": "custom ESLint rules for MoresecFE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-rules",
+    "moresec"
+  ],
+  "author": "cnjs",
+  "files": [
+    "index.js",
+    "vue.js",
+    "react.js",
+    "rules.js",
+    "typescript.js",
+    "package.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.moresec.cn/front-end/eslint-config-moresec"
+  },
+  "bugs": {
+    "url": "https://git.moresec.cn/front-end/eslint-config-moresec/issues"
+  },
+  "homepage": "https://git.moresec.cn/front-end/eslint-config-moresec",
+  "devDependencies": {
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  }
+}
