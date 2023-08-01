@@ -1,6 +1,6 @@
 {
-  "name": "@jianhunxia/jianhao-eslint",
-  "version": "1.6.3",
+  "name": "@jianhunxia/eslint",
+  "version": "0.0.1",
   "description": "custom ESLint rules for jianhao",
   "main": "index.js",
   "scripts": {

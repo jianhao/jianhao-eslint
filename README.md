@@ -1,16 +1,13 @@
-# jianhao-eslint
+# eslint
 
 ESLint 规则配置集。支持原生 js、Vue、React、TypeScript。
 
-## Install
-
-> 只支持在内网环境下安装。如何设置 npm 源为内网环境，参考：http://192.168.180.66:8090/pages/viewpage.action?pageId=30871923
 
 ### js
 
 ```
 yarn add eslint @babel/core @babel/eslint-parser -D
-yarn add @jianhunxia/jianhao-eslint -D
+yarn add @jianhunxia/eslint -D
 ```
 
 ### vue
@@ -22,7 +19,7 @@ yarn add\
   eslint-plugin-vue\
   vue-eslint-parser\
   -D
-yarn add @jianhunxia/jianhao-eslint -D
+yarn add @jianhunxia/eslint -D
 ```
 
 ### react
@@ -33,7 +30,7 @@ yarn add\
   @babel/core @babel/eslint-parser\
   eslint-plugin-react\
   -D
-yarn add @jianhunxia/jianhao-eslint -D
+yarn add @jianhunxia/eslint -D
 ```
 
 ### typescript
@@ -45,7 +42,7 @@ yarn add\
   @typescript-eslint/parser\
   @typescript-eslint/eslint-plugin\
   -D
-yarn add @jianhunxia/jianhao-eslint -D
+yarn add @jianhunxia/eslint -D
 ```
 
 ## Usage
@@ -56,7 +53,7 @@ yarn add @jianhunxia/jianhao-eslint -D
 
 ```
 {
-  extends: ["@jianhunxia/jianhao-eslint"]
+  extends: ["@jianhunxia/eslint"]
 }
 ```
 
@@ -64,7 +61,7 @@ yarn add @jianhunxia/jianhao-eslint -D
 
 ```
 {
-  extends: ["@jianhunxia/jianhao-eslint/vue"]
+  extends: ["@jianhunxia/eslint/vue"]
 }
 ```
 
@@ -72,7 +69,7 @@ yarn add @jianhunxia/jianhao-eslint -D
 
 ```
 {
-  extends: ["@jianhunxia/jianhao-eslint/react"]
+  extends: ["@jianhunxia/eslint/react"]
 }
 ```
 
@@ -80,7 +77,7 @@ yarn add @jianhunxia/jianhao-eslint -D
 
 ```
 {
-  extends: ["@jianhunxia/jianhao-eslint/typescript"]
+  extends: ["@jianhunxia/eslint/typescript"]
 }
 ```
 
@@ -94,7 +91,7 @@ yarn add eslint-plugin-prettier eslint-config-prettier --dev
 // 2. 配置 .eslintrc 相关文件
 {
   extends: [
-    "@jianhunxia/jianhao-eslint",
+    "@jianhunxia/eslint",
     "plugin:prettier/recommended"
   ]
 }
@@ -121,14 +118,14 @@ yarn add\
   eslint-plugin-prettier\
   eslint-config-prettier\
   -D
-yarn add @jianhunxia/jianhao-eslint -D
+yarn add @jianhunxia/eslint -D
 yarn add prettier --dev --exact
 
 // .eslintrc
 {
   "extends": [
-    "@jianhunxia/jianhao-eslint/react",
-    "@jianhunxia/jianhao-eslint/typescript",
+    "@jianhunxia/eslint/react",
+    "@jianhunxia/eslint/typescript",
     "plugin:prettier/recommended"
   ]
 }
